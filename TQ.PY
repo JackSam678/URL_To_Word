@@ -198,10 +198,10 @@ class WebToWordConverter:
 
 if __name__ == "__main__":
     # 配置参数
-    TARGET_URL = "https://blog.csdn.net/weixin_64588173/article/details/138140240"  # 目标网页URL
+    TARGET_URL = ""  # 目标网页URL
     CONTENT_SELECTOR = "div#content_views"  # CSDN文章内容区域选择器
-    OUTPUT_DIR = None  # 自定义输出目录，如"/home/btl/文档/网页提取"，None则使用默认路径
-    DOC_FILENAME = "3DGS.docx"  # 输出Word文件名
+    OUTPUT_DIR = None  # 自定义输出目录，如"/home/文档/网页提取"，None则使用默认路径
+    DOC_FILENAME = ""  # 输出Word文件名
 
     # 执行提取
     try:
